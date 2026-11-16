@@ -1,0 +1,20 @@
+{
+  "name": "enjezly-print-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"tsx server.ts\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
